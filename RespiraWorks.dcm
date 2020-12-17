@@ -25,6 +25,10 @@ D Bosch BMP280 gas pressure sensor in LGA package
 K sensor pressure barom
 $ENDCMP
 #
+$CMP ESQ-120-44-L-D
+D ESQ-120-44-L-D for RPI connection
+$ENDCMP
+#
 $CMP MPX5700AP,GP
 D NXP MPX5700AP/GP gas pressure sensor in through-hole SIP package
 K sensor pressure barom
