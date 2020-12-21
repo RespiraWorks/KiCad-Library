@@ -29,13 +29,13 @@ $CMP ESQ-120-44-L-D
 D ESQ-120-44-L-D for RPI connection
 $ENDCMP
 #
-
 $CMP BQ25713
 D I2C NVDC 1-4s Battery Controller w/ Power Path and Multi-Chem
 K NVDC battery controller system monitor charge power path
 F https://www.ti.com/lit/ds/symlink/bq25713.pdf
 $ENDCMP
-#$CMP MPX5700AP,GP
+#
+$CMP MPX5700AP,GP
 D NXP MPX5700AP/GP gas pressure sensor in through-hole SIP package
 K sensor pressure barom
 $ENDCMP
