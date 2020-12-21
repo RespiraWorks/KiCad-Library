@@ -25,19 +25,19 @@ D Bosch BMP280 gas pressure sensor in LGA package
 K sensor pressure barom
 $ENDCMP
 #
-$CMP LD39050
-D ST LD39050 linear LDO regulator, 500 mA, fixed output version
-K ldo linear
+$CMP BQ25713
+D I2C NVDC 1-4s Battery Controller w/ Power Path and Multi-Chem
+K NVDC battery controller system monitor charge power path
+F https://www.ti.com/lit/ds/symlink/bq25713.pdf
 $ENDCMP
 #
 $CMP ESQ-120-44-L-D
 D ESQ-120-44-L-D for RPI connection
 $ENDCMP
 #
-$CMP BQ25713
-D I2C NVDC 1-4s Battery Controller w/ Power Path and Multi-Chem
-K NVDC battery controller system monitor charge power path
-F https://www.ti.com/lit/ds/symlink/bq25713.pdf
+$CMP LD39050
+D ST LD39050 linear LDO regulator, 500 mA, fixed output version
+K ldo linear
 $ENDCMP
 #
 $CMP MPX5700AP,GP
