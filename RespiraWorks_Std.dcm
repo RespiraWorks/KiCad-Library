@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CSD17304Q3
+D MOSFET N-CH 30V 15A/56A UltraLowQ logic level 8-VSON  3.3x3.3mm
+K NexFET Power MOSFET N-MOS lowQ logic level
+F https://www.ti.com/lit/ds/symlink/csd17304q3.pdf?ts=1608773956037
+$ENDCMP
+#
+$CMP CSD25302Q2
+D 5A Id, 20V Vds, NexFET P-Channel Power MOSFET, 39mOhm Ron, SON-6
+K NexFET Power MOSFET P-MOS
+F https://www.ti.com/lit/ds/slps234b/slps234b.pdf
+$ENDCMP
+#
+$CMP CSD25402Q3A
+D MOSFET P-CH 20V 76A UltraLowQ Logic Level 8-VSON 3.3x3.3mm
+K NexFET Power MOSFET P-MOS lowQ logic level
+F https://www.ti.com/lit/ds/symlink/csd25402q3a.pdf
+$ENDCMP
+#
+$CMP SRP1038A-3R3M
+D Inductor
+K inductor choke coil reactor magnetic
+F https://www.bourns.com/docs/Product-Datasheets/SRP1038A.pdf
+$ENDCMP
+#
 $CMP Speaker_diode
 D Speaker with reverse-connected diode
 K speaker sound
