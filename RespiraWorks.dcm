@@ -37,8 +37,19 @@ D Bosch BMP280 gas pressure sensor in LGA package
 K sensor pressure barom
 $ENDCMP
 #
+$CMP BQ25713
+D I2C NVDC 1-4s Battery Controller w/ Power Path and Multi-Chem
+K NVDC battery controller system monitor charge power path
+F https://www.ti.com/lit/ds/symlink/bq25713.pdf
+$ENDCMP
+#
 $CMP ESQ-120-44-L-D
 D ESQ-120-44-L-D for RPI connection
+$ENDCMP
+#
+$CMP LD39050
+D ST LD39050 linear LDO regulator, 500 mA, fixed output version
+K ldo linear
 $ENDCMP
 #
 $CMP MPX5700AP,GP
@@ -73,6 +84,12 @@ $ENDCMP
 #
 $CMP SN74LVC2T45DCTR
 F https://www.ti.com/lit/ds/symlink/sn74lvc2t45.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1605630505243
+$ENDCMP
+#
+$CMP TLC555
+D 555 monostable/astable timer (CMOS low-power)
+K single timer 555
+F http://www.ti.com/lit/ds/symlink/tlc555.pdf
 $ENDCMP
 #
 $CMP TPS1H100A
