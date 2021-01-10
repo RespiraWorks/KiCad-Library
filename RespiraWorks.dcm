@@ -76,6 +76,11 @@ $CMP PCF85363ATT_AJ
 F https://www.nxp.com/docs/en/data-sheet/PCF85363A.pdf
 $ENDCMP
 #
+$CMP Pressure_sensor_daughterboard
+D Mechanical outline/mounting connections for pressure sensor daughterboard
+F ~
+$ENDCMP
+#
 $CMP Q_NMOS_SSSGDDDD
 D N-MOSFET transistor, source (pins 1-3) gate (pin 4) drain (pins 5-8)
 K transistor NMOS N-MOS N-MOSFET
