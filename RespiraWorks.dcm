@@ -1,6 +1,22 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +12V
+K power-flag
+$ENDCMP
+#
+$CMP +12V_Step1
+K power-flag
+$ENDCMP
+#
+$CMP +12V_Step2
+K power-flag
+$ENDCMP
+#
 $CMP +3.3V_Ctrl
+K power-flag
+$ENDCMP
+#
+$CMP +3.3V_Ctrl_A
 K power-flag
 $ENDCMP
 #
