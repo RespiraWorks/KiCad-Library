@@ -36,6 +36,10 @@ $CMP +5V_RPi
 K power-flag
 $ENDCMP
 #
+$CMP +5V_Sns
+K power-flag
+$ENDCMP
+#
 $CMP +5V_USB
 K power-flag
 $ENDCMP
@@ -90,6 +94,11 @@ $ENDCMP
 #
 $CMP PCF85363ATT_AJ
 F https://www.nxp.com/docs/en/data-sheet/PCF85363A.pdf
+$ENDCMP
+#
+$CMP Pressure_sensor_daughterboard
+D Mechanical outline/mounting connections for pressure sensor daughterboard
+F ~
 $ENDCMP
 #
 $CMP Q_NMOS_SSSGDDDD
