@@ -45,6 +45,7 @@ K power-flag
 $ENDCMP
 #
 $CMP 24LC256T-I_MS
+D 256 kbit (32 KB) I2C EEPROM
 F https://ww1.microchip.com/downloads/en/DeviceDoc/24AA256-24LC256-24FC256-Data-Sheet-20001203W.pdf
 $ENDCMP
 #
@@ -65,6 +66,10 @@ $ENDCMP
 #
 $CMP ESQ-120-44-L-D
 D ESQ-120-44-L-D for RPI connection
+$ENDCMP
+#
+$CMP INA333AIDGKR
+D Instrumentation amplifier
 $ENDCMP
 #
 $CMP LD39050
@@ -93,7 +98,13 @@ K sensor pressure barom
 $ENDCMP
 #
 $CMP PCF85363ATT_AJ
+D Real-time clock with optional power switching from backup battery
 F https://www.nxp.com/docs/en/data-sheet/PCF85363A.pdf
+$ENDCMP
+#
+$CMP POWERSTEP01
+D Stepper motor driver SiP
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/3f/48/e2/37/6b/ac/4c/f5/DM00090983.pdf/files/DM00090983.pdf/jcr:content/translations/en.DM00090983.pdf
 $ENDCMP
 #
 $CMP Pressure_sensor_daughterboard
@@ -108,7 +119,16 @@ F ~
 $ENDCMP
 #
 $CMP SN74LVC2T45DCTR
+D Digital level shifter
 F https://www.ti.com/lit/ds/symlink/sn74lvc2t45.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1605630505243
+$ENDCMP
+#
+$CMP STM32F103CxTx
+D ARM microcontroller
+$ENDCMP
+#
+$CMP STWD100NYWY3F
+D Watchdog timer for microcontroller/processor
 $ENDCMP
 #
 $CMP TLC555
@@ -130,7 +150,7 @@ F https://www.ti.com/lit/ds/symlink/tps1h100-q1.pdf
 $ENDCMP
 #
 $CMP TPS54561
-D Texas Instrument TPS54561-Q1, 4.5-60V input, 5A automotive buck converter
+D Texas Instruments TPS54561-Q1, 4.5-60V input, 5A automotive buck converter
 $ENDCMP
 #
 #End Doc Library

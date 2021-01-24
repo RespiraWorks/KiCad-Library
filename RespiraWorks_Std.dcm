@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADC128D818
+D 12-Bit, 8-Channel, ADC System Monitor With Temperature Sensor, I2C Interface, TSSOP-16
+K ADC 8 Channels TSSOP I2C
+F http://www.ti.com/lit/ds/symlink/adc128d818.pdf
+$ENDCMP
+#
 $CMP CSD17304Q3
 D MOSFET N-CH 30V 15A/56A UltraLowQ logic level 8-VSON  3.3x3.3mm
 K NexFET Power MOSFET N-MOS lowQ logic level
@@ -30,15 +36,27 @@ K inductor choke coil reactor magnetic
 F https://www.bourns.com/docs/Product-Datasheets/SRP1038A.pdf
 $ENDCMP
 #
+$CMP STM32L452RCTx
+D ARM microcontroller
+$ENDCMP
+#
 $CMP Speaker_diode
 D Speaker with reverse-connected diode
 K speaker sound
 F ~
 $ENDCMP
 #
+$CMP TCA9544APWR
+D I2C multiplexer, 4 channels + interrupts
+$ENDCMP
+#
 $CMP TL431DBZ
 D Shunt Regulator, SOT-23
 K diode device shunt regulator
+$ENDCMP
+#
+$CMP TPS54360B
+D Buck converter, up to 60V in, 3.5A out
 $ENDCMP
 #
 #End Doc Library
