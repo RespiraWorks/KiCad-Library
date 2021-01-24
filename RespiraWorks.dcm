@@ -20,6 +20,10 @@ $CMP +3.3V_Ctrl_A
 K power-flag
 $ENDCMP
 #
+$CMP +3.3V_FPGA
+K power-flag
+$ENDCMP
+#
 $CMP +3.3V_Sns
 K power-flag
 $ENDCMP

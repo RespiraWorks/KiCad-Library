@@ -76,6 +76,21 @@ X +3.3V_Ctrl_A 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# +3.3V_FPGA
+#
+DEF +3.3V_FPGA #PWR 0 40 Y Y 1 F P
+F0 "#PWR" 0 0 50 H I C CNN
+F1 "+3.3V_FPGA" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 1 0 -30 50 0 100 N
+P 2 1 1 0 0 0 0 100 N
+P 2 1 1 0 0 100 30 50 N
+X +3.3V_FPGA 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # +3.3V_Sns
 #
 DEF +3.3V_Sns #PWR 0 40 Y Y 1 F P
@@ -583,7 +598,7 @@ ENDDEF
 #
 # Pressure_sensor_daughterboard
 #
-DEF Pressure_sensor_daughterboard H 0 40 N N 1 F N
+DEF ~Pressure_sensor_daughterboard H 0 40 N N 1 F N
 F0 "H" 0 550 50 H I C CNN
 F1 "Pressure_sensor_daughterboard" 0 575 50 H I C CNN
 F2 "RespiraWorks:Pressure_sensor_daughterboard" 0 0 50 H I C CNN
@@ -639,7 +654,7 @@ ENDDEF
 #
 # RaspberryPi
 #
-DEF RaspberryPi H 0 40 N N 1 F N
+DEF ~RaspberryPi H 0 40 N N 1 F N
 F0 "H" 0 700 50 H I C CNN
 F1 "RaspberryPi" 100 650 50 H I C CNN
 F2 "RespiraWorks:RaspberryPi" 0 0 50 H I C CNN
