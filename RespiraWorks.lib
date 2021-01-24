@@ -584,13 +584,10 @@ ENDDEF
 # Pressure_sensor_daughterboard
 #
 DEF Pressure_sensor_daughterboard H 0 40 N N 1 F N
-F0 "H" 0 550 50 H V C CNN
+F0 "H" 0 550 50 H I C CNN
 F1 "Pressure_sensor_daughterboard" 0 575 50 H I C CNN
 F2 "RespiraWorks:Pressure_sensor_daughterboard" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*Pad*
-$ENDFPLIST
 DRAW
 C -150 100 50 0 1 50 N
 C -150 400 50 1 1 50 N
@@ -637,6 +634,29 @@ X D 5 100 200 100 D 50 50 1 1 P
 X D 6 200 200 100 D 50 50 1 1 P
 X D 7 300 200 100 D 50 50 1 1 P
 X D 8 400 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RaspberryPi
+#
+DEF RaspberryPi H 0 40 N N 1 F N
+F0 "H" 0 700 50 H I C CNN
+F1 "RaspberryPi" 100 650 50 H I C CNN
+F2 "RespiraWorks:RaspberryPi" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -150 100 50 0 1 50 N
+C -150 550 50 1 1 50 N
+C 350 100 50 1 1 50 N
+C 350 550 50 1 1 50 N
+T 0 100 200 50 0 0 0 M2.5/#2 Normal 0 C C
+T 0 100 400 50 0 0 0 "Raspberry Pi" Normal 1 C C
+S -250 650 550 0 0 1 0 f
+P 2 0 0 0 50 50 150 50 N
+P 2 0 0 0 70 70 130 70 N
+P 2 0 0 0 85 90 115 90 N
+P 2 0 0 0 100 0 100 50 N
+X 1 1 100 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
