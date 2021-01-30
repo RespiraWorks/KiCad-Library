@@ -40,6 +40,18 @@ $CMP STM32L452RCTx
 D ARM microcontroller
 $ENDCMP
 #
+$CMP STM32L496RETx
+D ARM Cortex-M4 MCU, 512KB flash, 320KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, LQFP-64
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf
+$ENDCMP
+#
+$CMP STM32L496RGTx
+D ARM Cortex-M4 MCU, 1024KB flash, 320KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, LQFP-64
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf
+$ENDCMP
+#
 $CMP Speaker_diode
 D Speaker with reverse-connected diode
 K speaker sound
