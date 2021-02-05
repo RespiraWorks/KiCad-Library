@@ -87,6 +87,18 @@ D ST LD39050 linear LDO regulator, 500 mA, fixed output version
 K ldo linear
 $ENDCMP
 #
+$CMP LM5141
+D Buck Regulator Positive Output Step-Down  DC-DC Controller IC 24-VQFN (4x4)
+K Buck, synchronous, controller, current mode
+F https://www.ti.com/lit/ds/symlink/lm5141-q1.pdf
+$ENDCMP
+#
+$CMP MAX17320G20+
+D Lithium-Ion, Lithium-Polymer, Battery Fuel Gauge IC Protect and Balance, 4.2-18 V 24-Pin, TQFN
+K li-ion protect balance fuel gauge
+F https://datasheets.maximintegrated.com/en/ds/MAX17320.pdf
+$ENDCMP
+#
 $CMP MPX5700AP,GP
 D NXP MPX5700AP/GP gas pressure sensor in through-hole SIP package
 K sensor pressure barom
