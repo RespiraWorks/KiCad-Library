@@ -48,6 +48,12 @@ $CMP +5V_USB
 K power-flag
 $ENDCMP
 #
+$CMP 0154010.DR
+D FUSE IN HOLDER OMNI BLOK 154 10A 125VAC/VDC SMD
+K fuse omni blok 154 holder with fuse
+F https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf
+$ENDCMP
+#
 $CMP 24LC256T-I_MS
 D 256 kbit (32 KB) I2C EEPROM
 F https://ww1.microchip.com/downloads/en/DeviceDoc/24AA256-24LC256-24FC256-Data-Sheet-20001203W.pdf
