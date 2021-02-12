@@ -24,6 +24,30 @@ K NexFET Power MOSFET P-MOS lowQ logic level
 F https://www.ti.com/lit/ds/symlink/csd25402q3a.pdf
 $ENDCMP
 #
+$CMP Conn_01x02
+D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x03
+D Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x04
+D Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x05
+D Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP LM4120-IM5X-3.3
 D 2.5V ±0.2% Precision Micropower Low Dropout Voltage Reference, SOT-23-5
 K Precision Micropower Low Dropout Voltage Reference 2.5V
