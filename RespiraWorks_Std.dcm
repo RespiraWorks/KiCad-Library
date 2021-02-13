@@ -48,6 +48,12 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP DMP3013SFV-7
+D MOSFET P-CH 30V 12A PWRDI3333 Logic Level 8-VSON 3.3x3.3mm
+K NexFET Power MOSFET P-MOS lowQ logic level
+F https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf
+$ENDCMP
+#
 $CMP LM4120-IM5X-3.3
 D 2.5V ±0.2% Precision Micropower Low Dropout Voltage Reference, SOT-23-5
 K Precision Micropower Low Dropout Voltage Reference 2.5V

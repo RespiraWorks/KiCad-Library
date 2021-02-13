@@ -68,16 +68,16 @@ D Bosch BMP280 gas pressure sensor in LGA package
 K sensor pressure barom
 $ENDCMP
 #
+$CMP BQ24773
+D I2C NVDC 1-4s Battery Controller Buck w/ Power Path and Multi-Chem
+K NVDC battery controller system monitor charge power path
+F https://www.ti.com/lit/ds/symlink/bq24773.pdf
+$ENDCMP
+#
 $CMP BQ25713
 D I2C NVDC 1-4s Battery Controller w/ Power Path and Multi-Chem
 K NVDC battery controller system monitor charge power path
 F https://www.ti.com/lit/ds/symlink/bq25713.pdf
-$ENDCMP
-#
-$CMP BQ25773
-D I2C NVDC 1-4s Battery Controller Buck w/ Power Path and Multi-Chem
-K NVDC battery controller system monitor charge power path
-F https://www.ti.com/lit/ds/symlink/bq24773.pdf
 $ENDCMP
 #
 $CMP ESQ-120-44-L-D
