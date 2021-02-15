@@ -130,11 +130,6 @@ D Real-time clock with optional power switching from backup battery
 F https://www.nxp.com/docs/en/data-sheet/PCF85363A.pdf
 $ENDCMP
 #
-$CMP POWERSTEP01
-D Stepper motor driver SiP
-F https://www.st.com/content/ccc/resource/technical/document/datasheet/3f/48/e2/37/6b/ac/4c/f5/DM00090983.pdf/files/DM00090983.pdf/jcr:content/translations/en.DM00090983.pdf
-$ENDCMP
-#
 $CMP Pressure_sensor_daughterboard
 D Mechanical outline/mounting connections for pressure sensor daughterboard
 F ~
