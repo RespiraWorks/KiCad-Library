@@ -186,4 +186,9 @@ $CMP TPS54561
 D Texas Instruments TPS54561-Q1, 4.5-60V input, 5A automotive buck converter
 $ENDCMP
 #
+$CMP powerSTEP01
+D Stepper motor driver SiP
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/3f/48/e2/37/6b/ac/4c/f5/DM00090983.pdf/files/DM00090983.pdf/jcr:content/translations/en.DM00090983.pdf
+$ENDCMP
+#
 #End Doc Library
