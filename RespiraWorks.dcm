@@ -48,6 +48,10 @@ $CMP +5V_USB
 K power-flag
 $ENDCMP
 #
+$CMP +VLink
+K power-flag
+$ENDCMP
+#
 $CMP 0154010.DR
 D FUSE IN HOLDER OMNI BLOK 154 10A 125VAC/VDC SMD
 K fuse omni blok 154 holder with fuse
