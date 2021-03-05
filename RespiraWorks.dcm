@@ -36,10 +36,6 @@ $CMP +5V_GUI
 K power-flag
 $ENDCMP
 #
-$CMP +5V_RPi
-K power-flag
-$ENDCMP
-#
 $CMP +5V_Sns
 K power-flag
 $ENDCMP
