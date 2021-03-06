@@ -155,6 +155,12 @@ $CMP STM32F103CxTx
 D ARM microcontroller
 $ENDCMP
 #
+$CMP STM32L496VGT
+D ARM Cortex-M4 MCU, 1MB flash, 320KB RAM, 80MHz, 1.71-3.6V, 83 GPIO, LQFP-100
+K ARM Cortex-M4 STM32L4 STM32L496
+F http://www.st.com/st-web-https://www.st.com/resource/en/datasheet/stm32l496vg.pdf
+$ENDCMP
+#
 $CMP STWD100NYWY3F
 D Watchdog timer for microcontroller/processor
 $ENDCMP
