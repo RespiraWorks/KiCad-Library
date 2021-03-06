@@ -60,6 +60,12 @@ K Precision Micropower Low Dropout Voltage Reference 2.5V
 F http://www.ti.com/lit/ds/symlink/lm4128.pdf
 $ENDCMP
 #
+$CMP Polyfuse_2A_0ZCF0200AF2C
+D Resettable fuse, polymeric positive temperature coefficient, small symbol
+K resettable fuse PTC PPTC polyfuse polyswitch
+F https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcf-series.pdf
+$ENDCMP
+#
 $CMP SRP1038A-3R3M
 D Inductor
 K inductor choke coil reactor magnetic
