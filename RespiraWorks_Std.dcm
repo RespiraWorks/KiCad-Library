@@ -88,6 +88,12 @@ K ARM Cortex-M4 STM32L4 STM32L4x6
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf
 $ENDCMP
 #
+$CMP SW_Push
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
 $CMP Speaker_diode
 D Speaker with reverse-connected diode
 K speaker sound
@@ -105,6 +111,12 @@ $ENDCMP
 #
 $CMP TPS54360B
 D Buck converter, up to 60V in, 3.5A out
+$ENDCMP
+#
+$CMP USBLC6-2SC6
+D Very low capacitance ESD protection diode, 2 data-line, SOT-23-6
+K usb ethernet video
+F https://www.st.com/resource/en/datasheet/usblc6-2.pdf
 $ENDCMP
 #
 #End Doc Library
