@@ -66,6 +66,18 @@ K resettable fuse PTC PPTC polyfuse polyswitch
 F https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcf-series.pdf
 $ENDCMP
 #
+$CMP Q_NMOS_SGD
+D N-MOSFET transistor, source/gate/drain
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
+$CMP Q_PMOS_SGD
+D P-MOSFET transistor, source/gate/drain
+K transistor PMOS P-MOS P-MOSFET
+F ~
+$ENDCMP
+#
 $CMP SRP1038A-3R3M
 D Inductor
 K inductor choke coil reactor magnetic
