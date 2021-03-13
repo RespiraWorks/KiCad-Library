@@ -6,6 +6,18 @@ K ADC 8 Channels TSSOP I2C
 F http://www.ti.com/lit/ds/symlink/adc128d818.pdf
 $ENDCMP
 #
+$CMP CP
+D Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP CP1
+D Polarized capacitor, US symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
 $CMP CSD17304Q3
 D MOSFET N-CH 30V 15A/56A UltraLowQ logic level 8-VSON  3.3x3.3mm
 K NexFET Power MOSFET N-MOS lowQ logic level
@@ -52,6 +64,30 @@ $CMP DMP3013SFV-7
 D MOSFET P-CH 30V 12A PWRDI3333 Logic Level 8-VSON 3.3x3.3mm
 K NexFET Power MOSFET P-MOS lowQ logic level
 F https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf
+$ENDCMP
+#
+$CMP D_ALT
+D Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP D_Zener_ALT
+D Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Jumper_NC_Small
+D Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP LED_ALT
+D Light emitting diode, filled shape
+K LED diode
+F ~
 $ENDCMP
 #
 $CMP LM4120-IM5X-3.3
