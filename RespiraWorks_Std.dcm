@@ -66,6 +66,12 @@ K resettable fuse PTC PPTC polyfuse polyswitch
 F https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcf-series.pdf
 $ENDCMP
 #
+$CMP Polyfuse_Small
+D Resettable fuse, polymeric positive temperature coefficient, small symbol
+K resettable fuse PTC PPTC polyfuse polyswitch
+F ~
+$ENDCMP
+#
 $CMP Q_NMOS_SGD
 D N-MOSFET transistor, source/gate/drain
 K transistor NMOS N-MOS N-MOSFET
