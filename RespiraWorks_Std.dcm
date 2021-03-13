@@ -96,6 +96,12 @@ K Precision Micropower Low Dropout Voltage Reference 2.5V
 F http://www.ti.com/lit/ds/symlink/lm4128.pdf
 $ENDCMP
 #
+$CMP Net-Tie_2
+D Net tie, 2 pins
+K net tie short
+F ~
+$ENDCMP
+#
 $CMP Polyfuse_2A_0ZCF0200AF2C
 D Resettable fuse, polymeric positive temperature coefficient, small symbol
 K resettable fuse PTC PPTC polyfuse polyswitch
