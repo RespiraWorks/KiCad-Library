@@ -323,7 +323,7 @@ ENDDEF
 #
 # D_Zener_ALT
 #
-DEF D_Zener_ALT D 0 40 Y N 1 F N
+DEF D_Zener_ALT D 0 40 N N 1 F N
 F0 "D" 0 300 50 H V C CNN
 F1 "D_Zener_ALT" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
@@ -342,9 +342,9 @@ ENDDEF
 #
 # Jumper_NC_Small
 #
-DEF Jumper_NC_Small JP 0 40 Y N 1 F N
-F0 "JP" 0 300 50 H V C CNN
-F1 "Jumper_NC_Small" 0 -300 50 H V C CNN
+DEF Jumper_NC_Small JP 0 40 N N 1 F N
+F0 "JP" -100 100 50 H V C CNN
+F1 "Jumper_NC_Small" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
