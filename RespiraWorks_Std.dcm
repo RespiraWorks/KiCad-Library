@@ -78,6 +78,12 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP Heatsink_Pad
+D Heatsink with electrical connection, 1 pin
+K thermal heat temperature
+F ~
+$ENDCMP
+#
 $CMP Jumper_NC_Small
 D Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
