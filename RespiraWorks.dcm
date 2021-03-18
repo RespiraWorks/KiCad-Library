@@ -84,6 +84,10 @@ $CMP ESQ-120-44-L-D
 D ESQ-120-44-L-D for RPI connection
 $ENDCMP
 #
+$CMP FPGAOutline
+D FPGA Outline
+$ENDCMP
+#
 $CMP INA333AIDGKR
 D Instrumentation amplifier
 $ENDCMP
@@ -168,6 +172,10 @@ $ENDCMP
 #
 $CMP STWD100NYWY3F
 D Watchdog timer for microcontroller/processor
+$ENDCMP
+#
+$CMP ShieldConnectors
+D STM32 shield outline
 $ENDCMP
 #
 $CMP TLC555
