@@ -1,4 +1,4 @@
-(module Molex_Mega-Fit_76829-0106_2x03_P5.70mm_Vertical (layer F.Cu) (tedit 600DA5FC)
+(module Molex_Mega-Fit_76829-0106_2x03_P5.70mm_Vertical (layer F.Cu) (tedit 605E480F)
   (descr "Molex Mega-Fit Power Connectors, 76829-0106 (compatible alternatives: 172065-0206, 172065-0306), 3 Pins per row (http://www.molex.com/pdm_docs/sd/768290102_sd.pdf), generated with kicad-footprint-generator")
   (tags "connector Molex Mega-Fit side entry")
   (fp_text reference REF** (at 5.75 -4.25) (layer F.SilkS)
@@ -76,5 +76,10 @@
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model ${RespiraWorks}/768290106.stp
+    (offset (xyz 38.5 0.4 13.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 0 0))
   )
 )
