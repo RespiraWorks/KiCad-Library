@@ -1,4 +1,4 @@
-(module SRP5015TA (layer F.Cu) (tedit 600DA6D7)
+(module L_Bourns_SRP5015TA (layer F.Cu) (tedit 605FD948)
   (descr "Bourns SRP5015TA shielded power inductor series")
   (attr smd)
   (fp_text reference REF** (at 0 3.7) (layer F.SilkS)
