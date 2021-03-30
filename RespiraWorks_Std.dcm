@@ -191,4 +191,16 @@ K usb ethernet video
 F https://www.st.com/resource/en/datasheet/usblc6-2.pdf
 $ENDCMP
 #
+$CMP USB_B_Micro
+D USB Micro Type B connector
+K connector USB micro
+F ~
+$ENDCMP
+#
+$CMP USB_B_Mini
+D USB Mini Type B connector
+K connector USB mini
+F ~
+$ENDCMP
+#
 #End Doc Library
